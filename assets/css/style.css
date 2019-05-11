@@ -1,0 +1,226 @@
+header {
+    display: flex;
+    background-color: #243b35;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+h1 {
+    margin: auto;
+    float: left;
+    font-size: 36px;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+    margin: auto;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e3e8e9;
+    color: #222220;
+}
+
+main {
+    display: inline;
+    padding: 0, 20px, 20px, 20px;
+}
+
+.container {
+    margin: auto;
+}
+
+footer {
+    background-color: #243b35;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#myPic {
+    width: 300px;
+    border-radius: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+#quote {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    clear: both;
+    background-color: #017b7e;
+    color: white;
+    border: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+form p {
+    margin-bottom: 0;
+}
+
+
+.psychicGame {
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.crystals {
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.trivia {
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.gif {
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.train {
+    clear: both;
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.tag {
+    background-color: #017b7e;
+    color: white;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    left: 0;
+    bottom: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 650px;
+    }
+        
+    footer {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        width: 600px;
+    }
+
+    header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h1 {
+        padding: 20px;
+        border: 20px;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    
+    nav {
+        overflow: auto;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    img {
+        height: 300px;
+        width: 300px;
+        
+    }
+
+    .myPic {
+        margin: 40px;
+    }
+
+    p {
+        clear: both;
+        padding: 10px;
+    }
+
+    .archeway {
+        clear: both;
+        margin-left: 110px;
+    }
+
+    .buildings {
+        clear: both;
+        margin-left: 110px;
+    }
+
+    .headphones {
+        clear: both;
+        margin-left: 110px;
+    }
+
+    .mp3 {
+        clear: both;
+        margin-left: 110px;
+    }
+
+    .tv {
+        clear: both;
+        margin-left: 110px;
+    }
+
+    .tag {
+        padding: 10px;
+        position: relative;
+        width: 300px;
+        left: 0;
+        bottom: 80px;
+    }
+}
