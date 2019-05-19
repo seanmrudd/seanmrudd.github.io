@@ -54,6 +54,10 @@ footer {
     bottom: 0;
 }
 
+.icon img {
+    width: 36px;
+}
+
 #myPic {
     width: 300px;
     border-radius: 25%;
@@ -122,6 +126,12 @@ form p {
     padding-bottom: 0;
 }
 
+.liri {
+    float: left;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
 .tag {
     background-color: #017b7e;
     color: white;
@@ -138,6 +148,11 @@ form p {
     .container {
         width: 768px;
     }
+
+    footer{
+        clear: both;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -146,6 +161,7 @@ form p {
     }
         
     footer {
+        clear: both;
         position: relative;
     }
 }
@@ -184,6 +200,10 @@ form p {
 
     .myPic {
         margin: 40px;
+    }
+    
+    .icon img {
+        height: auto;
     }
 
     p {
