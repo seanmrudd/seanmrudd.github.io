@@ -44,12 +44,13 @@ main {
 }
 
 footer {
+    clear: both;
     background-color: #243b35;
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding: 20px;
-    position: absolute;
+    position: relative; 
     width: 100%;
     bottom: 0;
 }
