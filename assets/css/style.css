@@ -113,36 +113,6 @@ form p {
     margin-bottom: 0;
 }
 
-
-.psychicGame {
-    float: left;
-    padding: 20px;
-    padding-bottom: 0;
-}
-
-.crystals {
-    float: left;
-    padding: 20px;
-    padding-bottom: 0;
-}
-
-.trivia {
-    float: left;
-    padding: 20px;
-    padding-bottom: 0;
-}
-.gif {
-    float: left;
-    padding: 20px;
-    padding-bottom: 0;
-}
-
-.train {
-    float: left;
-    padding: 20px;
-    padding-bottom: 0;
-}
-
 .liri {
     float: left;
     padding: 20px;
@@ -226,38 +196,5 @@ form p {
     p {
         clear: both;
         padding: 10px;
-    }
-
-    .archeway {
-        clear: both;
-        margin-left: 110px;
-    }
-
-    .buildings {
-        clear: both;
-        margin-left: 110px;
-    }
-
-    .headphones {
-        clear: both;
-        margin-left: 110px;
-    }
-
-    .mp3 {
-        clear: both;
-        margin-left: 110px;
-    }
-
-    .tv {
-        clear: both;
-        margin-left: 110px;
-    }
-
-    .tag {
-        padding: 10px;
-        position: relative;
-        width: 300px;
-        left: 0;
-        bottom: 80px;
-    } */
+    }*/
 }
