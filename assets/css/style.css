@@ -1,3 +1,6 @@
+html, body {
+    height: 100%;
+}
 header {
     display: flex;
     background-color: #243b35;
@@ -41,6 +44,7 @@ main {
 
 .container {
     margin: auto;
+    max-width: 800px;
 }
 
 footer {
@@ -55,6 +59,11 @@ footer {
     bottom: 0;
 }
 
+.portfolioPic {
+    width: 200px;
+    height: 200px;
+}
+
 .icon img {
     width: 36px;
 }
@@ -63,6 +72,14 @@ footer {
     width: 300px;
     border-radius: 25%;
     float: left;
+    padding-right: 20px;
+}
+
+#credlyBadge {
+    clear: both;
+    width: 300px;
+    border-radius: 25%;
+    float: right;
     padding-right: 20px;
 }
 
@@ -169,7 +186,7 @@ form p {
 @media screen and (max-width: 640px) {
 
     .container {
-        width: 600px;
+        width: 450px;
     }
 
     header {
@@ -192,7 +209,7 @@ form p {
         text-align: center;
     }
     
-    img {
+    /* img {
         height: 300px;
         width: 300px;
         
@@ -242,5 +259,5 @@ form p {
         width: 300px;
         left: 0;
         bottom: 80px;
-    }
+    } */
 }
