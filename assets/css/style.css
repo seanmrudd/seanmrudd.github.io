@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
 }
+
 header {
     display: flex;
     background-color: #243b35;
@@ -15,6 +16,14 @@ h1 {
     margin: auto;
     float: left;
     font-size: 36px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#technologies {
+    text-align: center;
 }
 
 nav {
